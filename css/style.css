@@ -8,7 +8,7 @@ body {
 	overflow-y: hidden;
 	}
 .panel {
-	width: 930px;
+  width: 930px;
 	float: left;
 	padding-left: 30px;
 	padding-right: 1040px;
@@ -39,10 +39,18 @@ ul#banner li {
 	max-width: 100px;
 	position: fixed;
 }
-#abouttext {
 
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+#about .wrapper {
+  height: 100%;
+  display: table;
 }
+#about .abouttext {
+  width: 100%;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 	
 a, a:hover, a:active, a:visited {
 	color: white;
