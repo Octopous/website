@@ -8,12 +8,9 @@ body {
 	overflow-y: hidden;
 	}
 .panel {
-  width: 930px;
-	float: left;
-	padding-left: 30px;
-	padding-right: 1040px;
+  width: 100vw;
+	display: inline-block;
 	height:100vh;
-	margin-top: 1px;
 	}
 	
 ul#banner {
@@ -45,10 +42,11 @@ ul#banner li {
   display: table;
 }
 #about .abouttext {
-  width: 100%;
-	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
   display: table-cell;
+  width: 100%;
+  padding: 0 5%;
   vertical-align: middle;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
 
 	
