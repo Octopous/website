@@ -9,7 +9,7 @@ body {
 	}
 .panel {
   width: 100vw;
-	display: inline-block;
+	float:left;
 	height:100vh;
 	}
 	
